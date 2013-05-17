@@ -53,8 +53,11 @@ After the start command has run can open your browser and open: http://localhost
 
 
 <p>
-	Supervisor is running so you should 
-
+	Supervisor is setup to run in the package file.
+<code>
+$npm start
+</code> 
+Will default to supervisor and log errors and auto refresh page when any project files have been updated.
 
 <h2>Authors</h2>
 
