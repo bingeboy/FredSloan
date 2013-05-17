@@ -1,13 +1,60 @@
-iFredSloan
+FredSloan
 =========
-
-<h1>LESS Framework</h1>
-
 
 <img src="http://jpmcgarrity.com/upload/fredsloan1.jpg" width="300" height="auto">
 
+<h1>LESS Framework</h1>
 
 LESS/CSS framework focusing on html5 semantics using mininal markup.
+
+
+<h2>Installation Instructions</h2>
+If you dont have Node running on your computer it is recommended to install NODE from HomeBrew.
+
+
+
+
+<strong>Instrucstions for Installing Homebrew: </strong>
+<code>
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+</code>
+<strong>Instrucstions for Node: </strong>
+<code>
+$brew install node
+</code>
+
+<strong>Instrucstions for Node: </strong>
+<code>
+$brew install node
+</code>
+
+Gab this repo code and then run the following in the root director of the folder:
+<code>
+$express myProjectNameHere -c less
+</code>
+
+You have now installed a node server running express,jade, less. 
+
+.... the rest of instructions coming soon. 
+	
+
+<strong>Install NPMs for Project</strong>
+<p>
+	Goto the root folder with "package.json"
+</p>
+<code>
+$npm install
+$npm start
+</code>
+
+<p>
+The NPM's should auto install with first command above.
+After the start command has run can open your browser and open: http://localhost:8000/ 
+
+
+<p>
+	Supervisor is running so you should 
+
 
 <h2>Authors</h2>
 
@@ -16,9 +63,6 @@ LESS/CSS framework focusing on html5 semantics using mininal markup.
 
 <p>
 <strong>JP McGarrity</strong>, design@jpmcgarrity.com, @bingeboy.
-
-
-
 
 The MIT License (MIT)
  
