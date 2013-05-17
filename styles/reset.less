@@ -1,0 +1,48 @@
+// Reset by FredSloan 
+
+html, body, header, footer, section, article, aside,
+nav, img, div, span, h1, h2, h3, p, em, ul, li, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent; //[KJ] - Do we need this?
+}
+
+// We believe in keeping things simple and our CSS to
+// a minimum. Use it or lose it. We're taking a solid
+// assumption that you'll more than likely use the tags
+// above. If you want to reset more, you should choose
+// from the list below.
+
+// object, iframe, h4, h5, h6, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,  canvas, details, figcaption, figure, hgroup, menu, summary, time, mark, audio, video
+
+// HTML5 Elements that you want to display as a block-level element
+
+header, footer, section, article, aside, nav {
+    display: block;
+}
+
+// Don't get Greedy, but if you want to make one of
+// these elements display as block-level, then add
+// them to the list.
+
+//details, figcaption, figure, hgroup, menu
+
+body {
+    line-height: 1;
+}
+
+//[KJ] - Should we limit this to nav? Make it global? Remove it?
+
+nav ul {
+    list-style: none;
+}
+
+//[KJ] - Thoughts on the input, select line? Leave it? Toss it?
+
+input, select {
+    vertical-align: middle;
+}
