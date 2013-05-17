@@ -1,0 +1,14 @@
+{
+   "name":"FredSlaon",
+   "version":"0.0.1",
+   "author":"BINEGBOY KENNY",
+   "scripts":{
+      "start":"supervisor app.js"
+   },
+   "dependencies":{
+      "express":"3.2.4",
+      "jade":"*",
+      "less-middleware":"*",
+       "supervisor":"*"
+   }
+}
