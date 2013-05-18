@@ -66,6 +66,13 @@ $npm start
 </code> 
 Will default to supervisor and log errors and auto refresh page when any project files have been updated.
 
+<h5>File Watchers</h5>
+If you used wstorm as an IDE you can create watchers for JADE and LESS.
+http://www.jetbrains.com/webstorm/webhelp/using-file-watchers.html
+
+Basically point the watcher to the NPMs. I recommend installing express, jade, less, supervisor NPM's globally.
+
+
 <h2>Authors</h2>
 
 <p>
