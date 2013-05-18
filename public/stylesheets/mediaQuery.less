@@ -1,26 +1,9 @@
 /* less example code: 
 
-INPUT:
-.one {
-	    @media (width: 400px) {
-			        font-size: 1.2em;
-					        @media print and color {
-								            color: blue;
-											        }
-													    }
-}
-OUTPUT:
-@media (width: 400px) {
-	  .one {
-		      font-size: 1.2em;
-			    }
-}
-@media (width: 400px) and print and color {
-	  .one {
-		      color: blue;
-			    }
+	@import "library.less" screen and (max-width: 400px);
 }
 */
+
 
 
 
