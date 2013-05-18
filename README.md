@@ -11,9 +11,6 @@ LESS/CSS framework focusing on html5 semantics using minimal markup.
 <h2>Installation Instructions</h2>
 If you don't have Node running on your computer it is recommended to install NODE from HomeBrew.
 
-
-
-
 <strong>Instructions for Installing Homebrew: </strong>
 <code>
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
@@ -28,24 +25,34 @@ $brew install node
 $brew install node
 </code>
 
-Gab this repo code and then run the following in the root director of the folder:
+Grab this repo code and then run the following in the root director of the folder:
 <code>
-$express myProjectNameHere -c less
+$git clone https://github.com/bingeboy/FredSloan.git
 </code>
 
-You have now installed a node server running express,jade, less. 
-
-.... the rest of instructions coming soon. 
+<!-- <code>
+$express myProjectNameHere -c less
+</code> -->
   
 
 <strong>Install NPMs for Project</strong>
 <p>
 	Goto the root folder with "package.json"
 </p>
+
+Run: 
 <code>
 $npm install
+</code>
+This will grab all the npms required for the project.
+
+<p>
+Now start the project with 
+<code>
 $npm start
 </code>
+
+FredSloan should now be running on http://localhost:8000
 
 <p>
 The NPM's should auto install with first command above.
