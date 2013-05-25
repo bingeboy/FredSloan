@@ -4,6 +4,20 @@
 }
 */
 
+/* @Description: Proof of concept css animations that triggers JS event listener */
+.mq {
+  -webkit-transition: width 0.001ms;
+  -moz-transition: width 0.001ms;
+  -o-transition: width 0.001ms;
+  transition: width 0.001ms;
+  width: 0;
+}
+
+@media all and (max-width: 480px) {
+  .mq {
+    width: 1px;
+  }
+}
 
 
 
