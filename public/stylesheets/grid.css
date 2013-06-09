@@ -1,0 +1,92 @@
+body {
+  width: 100%;
+}
+.colspan-1 {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  background: #ccc;
+  width: 90px //maybe 92px toto make this a varible.;
+}
+.colspan-2 {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  width: 190px;
+  background: #ccc;
+}
+.colspan-3 {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  width: 290px;
+}
+.colspan-3 {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px width: 390px;
+  background: #ccc;
+}
+.colspan-4 {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px width: 490px;
+}
+.colspan-5 {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  width: 590px //maybe 92px toto make this a varible. background: #ccc;;
+}
+.colspan-6 {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  width: 690px //maybe 92px toto make this a varible.;
+}
+.colspan-7 {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  width: 790px;
+  background: #ccc;
+}
+.colspan-8 {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  width: 790px;
+}
+.colspan-9 {
+  background: #ccc;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  width: 890px //maybe 92px toto make this a varible.;
+}
+.colspan-10 {
+  background: #ccc;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  width: 990px //maybe 92px toto make this a varible.;
+}
+.colspan-11 {
+  background: #ccc;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  width: 1090px //maybe 92px toto make this a varible.;
+}
+.colspan-12 {
+  background: #ccc;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  width: 1190px //maybe 92px toto make this a varible.;
+}
+.row {
+  width: 100%;
+  padding: 10px 0;
+  display: block;
+}

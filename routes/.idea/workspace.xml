@@ -4,7 +4,7 @@
     <list default="true" id="fa35fc99-57d8-40fc-af79-42ef2fa1a520" name="Default" comment="" />
     <ignored path="routes.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369506052212" ignored="false" />
+    <file path="/Dummy.txt" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369621490235" ignored="false" />
     <file path="$PROJECT_DIR$/responsive.js" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369506271679" ignored="false" />
     <file path="$PROJECT_DIR$/../public/stylesheets/mediaQuery.less" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369495126381" ignored="false" />
     <file path="/mediaQuery.less" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369495118249" ignored="false" />
@@ -13,11 +13,24 @@
     <file path="/layout.jade" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369495493739" ignored="false" />
     <file path="$PROJECT_DIR$/../public/stylesheets/themes/default.less" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369496453696" ignored="false" />
     <file path="/default.less" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369496453696" ignored="false" />
-    <file path="$PROJECT_DIR$/../public/.idea/workspace.xml" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369506276184" ignored="false" />
-    <file path="$PROJECT_DIR$/../node_modules/.idea/workspace.xml" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369506276184" ignored="false" />
-    <file path="$PROJECT_DIR$/../project/.idea/workspace.xml" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369506276184" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369506276184" ignored="false" />
-    <file path="$PROJECT_DIR$/../views/.idea/workspace.xml" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369506276184" ignored="false" />
+    <file path="$PROJECT_DIR$/../public/.idea/workspace.xml" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369616979686" ignored="false" />
+    <file path="$PROJECT_DIR$/../node_modules/.idea/workspace.xml" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369616979686" ignored="false" />
+    <file path="$PROJECT_DIR$/../project/.idea/workspace.xml" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369616979686" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369616979686" ignored="false" />
+    <file path="$PROJECT_DIR$/../views/.idea/workspace.xml" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369616979686" ignored="false" />
+    <file path="$PROJECT_DIR$/../styles/.idea/workspace.xml" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369616979686" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/views/home.jade" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369621214538" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/views/layout.jade" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369621240408" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/views/login.jade" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369621299502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/views/register.jade" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369621314544" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/conf.js" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369621356233" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/server.js" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369621416281" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/node_modules/everyauth/README.md" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369622291439" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/node_modules/everyauth/package.json" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369622291439" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/node_modules/everyauth/documentup.json" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369622291439" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/node_modules/everyauth/test/creds.dummy.js" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369622533849" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/node_modules/everyauth/example/server.js" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369623534629" ignored="false" />
+    <file path="/server.js" changelist="fa35fc99-57d8-40fc-af79-42ef2fa1a520" time="1369623495896" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +94,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="8d99cb32-2c4a-4617-8587-4d183fe88729">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -96,13 +121,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="65" width="1280" height="731" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25445706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25850892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />

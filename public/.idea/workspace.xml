@@ -4,7 +4,7 @@
     <list default="true" id="af35575a-02c2-42b0-8955-e7cbdd722c84" name="Default" comment="" />
     <ignored path="public.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369506052212" ignored="false" />
+    <file path="/Dummy.txt" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369621490235" ignored="false" />
     <file path="$PROJECT_DIR$/../routes/responsive.js" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369506271679" ignored="false" />
     <file path="$PROJECT_DIR$/stylesheets/mediaQuery.less" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369495126381" ignored="false" />
     <file path="/mediaQuery.less" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369495118249" ignored="false" />
@@ -13,11 +13,24 @@
     <file path="/layout.jade" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369495493739" ignored="false" />
     <file path="$PROJECT_DIR$/stylesheets/themes/default.less" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369496453696" ignored="false" />
     <file path="/default.less" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369496453696" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369506276184" ignored="false" />
-    <file path="$PROJECT_DIR$/../node_modules/.idea/workspace.xml" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369506276184" ignored="false" />
-    <file path="$PROJECT_DIR$/../project/.idea/workspace.xml" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369506276184" ignored="false" />
-    <file path="$PROJECT_DIR$/../routes/.idea/workspace.xml" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369506276184" ignored="false" />
-    <file path="$PROJECT_DIR$/../views/.idea/workspace.xml" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369506276184" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369616979686" ignored="false" />
+    <file path="$PROJECT_DIR$/../node_modules/.idea/workspace.xml" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369616979686" ignored="false" />
+    <file path="$PROJECT_DIR$/../project/.idea/workspace.xml" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369616979686" ignored="false" />
+    <file path="$PROJECT_DIR$/../routes/.idea/workspace.xml" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369616979686" ignored="false" />
+    <file path="$PROJECT_DIR$/../views/.idea/workspace.xml" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369616979686" ignored="false" />
+    <file path="$PROJECT_DIR$/../styles/.idea/workspace.xml" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369616979686" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/views/home.jade" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369621214538" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/views/layout.jade" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369621240408" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/views/login.jade" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369621299502" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/views/register.jade" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369621314545" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/conf.js" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369621356232" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/server.js" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369621416281" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/node_modules/everyauth/README.md" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369622291440" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/node_modules/everyauth/package.json" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369622291440" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/node_modules/everyauth/documentup.json" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369622291440" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/node_modules/everyauth/test/creds.dummy.js" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369622533849" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../twitter/node_modules/everyauth/example/server.js" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369623534629" ignored="false" />
+    <file path="/server.js" changelist="af35575a-02c2-42b0-8955-e7cbdd722c84" time="1369623495896" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +82,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="8d99cb32-2c4a-4617-8587-4d183fe88729">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -84,7 +109,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="65" width="1280" height="731" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
