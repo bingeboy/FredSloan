@@ -1,3 +1,4 @@
+/* Grid.less */
 /////////////////
 // Semantic.gs // MODIFIED for FredSloan
 /////////////////
@@ -19,15 +20,12 @@
 
 //[KJ] - Inline Block Mixin - Floats are so 2004. We should maybe move this to a mixins.less or something more global.
 .inline-block() {
-	display: -moz-inline-stack; //what browesrs is ths for?
+	display: -moz-inline-stack; //what version of FF is ths for?
 	display: inline-block;
 	zoom: 1;
 	*display: inline;
 }
 
-body {
-	width: 100%;
-}
 
 //todo needs comment
 .row(@columns:@columns) {
@@ -54,70 +52,85 @@ body {
 }
 
 //and outline for grids.This is test code pre alpha build. TODO finalize to code to work with break points.
+@import "prefix.less";
+@widthForColumn: 100px;
+
+nav{
+  /*todo hook this to prefix.less */
+  background-image: linear-gradient(#f9f9f9, #f3f3f3);
+  width: 100%;
+  height: 40px;
+}
+
 .colspan-1{
   display: inline-block;
-  margin:0 10px;
+  margin:  5px;
   padding: 10px;
   background: #ccc;
-  width: 90px //maybe 92px toto make this a varible.
+  width: @widthForColumn;
+  .box-sizing(content-box);
 }
 
 .colspan-2 {
   display: inline-block;
-  margin: 0 10px;
+  margin: 5px;
   padding: 10px;
-  width: 190px; //maybe 92px toto make this a varible.
+  width: 230px;
   background: #ccc;
+  .box-sizing(content-box);
 }
 
 .colspan-3 {
   display: inline-block;
-  margin: 0 10px;
-  padding: 10px;
-  width: 290px; //maybe 92px toto make this a varible. background: #ccc;
-}
-
-.colspan-3 {
-  display: inline-block;
-  margin: 0 10px;
-  padding: 10px width: 390px; //maybe 92px toto make this a varible.
   background: #ccc;
+  margin: 5px;
+  padding: 10px;
+  width: 360px;
+  .box-sizing(content-box);
 }
 
 .colspan-4 {
   display: inline-block;
-  margin: 0 10px;
-  padding: 10px width: 490px; //maybe 92px toto make this a varible.
+  margin: 5px;
+  padding: 10px;
+  width: 490px;
+  background: #ccc;
+  .box-sizing(content-box);
 }
 
 .colspan-5 {
   display: inline-block;
-  margin: 0 10px;
+  margin: 5px;
   padding: 10px;
-  width: 590px //maybe 92px toto make this a varible. background: #ccc;
+  width: @widthForColumn*5;
+  background: #ccc;
+  .box-sizing(content-box);
 }
 
 .colspan-6 {
   display: inline-block;
-  margin: 0 10px;
+  margin: 5px;
   padding: 10px;
-  width: 690px //maybe 92px toto make this a varible.
+  width: @widthForColumn*6;
+  .box-sizing(content-box);
 }
 
 .colspan-7 {
   display: inline-block;
-  margin: 0 10px;
+  margin: 5px;
   padding: 10px;
-  width: 790px; //maybe 92px toto make this a varible
+  width: @widthForColumn*7;
   background:#ccc;
+  .box-sizing(content-box);
 }
 
 .colspan-8 {
   display: inline-block;
   margin: 0 10px;
   padding: 10px;
-  width: 790px; //maybe 92px toto make this a varible.
+  width: @widthForColumn*8;
   //background: #ccc;
+  .box-sizing(content-box);
 }
 
 .colspan-9 {
@@ -125,7 +138,8 @@ body {
   display: inline-block;
   margin: 0 10px;
   padding: 10px;
-  width: 890px //maybe 92px toto make this a varible.
+  width: @widthForColumn*9;
+  box-sizing: Border-box;
 }
 
 .colspan-10 {
@@ -133,21 +147,25 @@ body {
   display: inline-block;
   margin: 0 10px;
   padding: 10px;
-  width: 990px //maybe 92px toto make this a varible.
+  width: 990px; //maybe 92px toto make this a varible.
+  box-sizing: Border-box;
 }
 
 .colspan-11 {
   background: #ccc;
   display: inline-block;
   margin: 0 10px;
-  padding: 10px; width: 1090px //maybe 92px toto make this a varible.
+  padding: 10px;
+  width: 1090px; //maybe 92px toto make this a varible.
+  box-sizing: Border-box;
 }
 
 .colspan-12 {
   background: #ccc;
   display: inline-block;
   margin: 0 10px;
-  padding: 10px; width: 1190px //maybe 92px toto make this a varible.
+  padding: 10px;
+  width: 1190px //maybe 92px toto make this a varible.
 }
 
 .row{

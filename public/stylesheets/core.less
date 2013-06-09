@@ -93,10 +93,17 @@
  */
 
 // Imports
+@import "prefix.less"; //should be first
 @import "kitchenSink.less";
-@import "reset.less",
-@import "form.less",
-@import "fonts.less",
-@import "grid.less" //<- I'm assuming this would get the @media break points. - JPM
+@import "reset.less";
+@import "form.less";
+@import "fonts.less";
+@import "mediaQuery.less";
+@import "grid.less";
 
 // Core
+//The following is setting up a single query state
+.container {
+  width: 920px;
+  margin: 0 auto;
+}

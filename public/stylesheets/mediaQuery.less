@@ -66,18 +66,33 @@ and (orientation : portrait) {
 /* Desktops and laptops ----------- */
 @media only screen 
 and (min-width : 1224px) {
-	/* Styles */
+  .container{
+     width: 1224px;
+     margin: 0 auto;
+     background: #ffffff;
+   }
 }
 
 /* Large screens ----------- */
 @media only screen 
 and (min-width : 1824px) {
 	/* Styles */
+  .container {
+    width: 1824px;
+    margin: 0 auto;
+    background: lightblue;
+  }
 }
 
 /* iPhone 4 ----------- */
+//todo: maybe we should try using dppx also - JPM
+
 @media
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 	/* Styles */
+}
+
+body{
+  width: 100%;
 }

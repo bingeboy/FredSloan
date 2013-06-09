@@ -1,0 +1,32 @@
+/* 
+
+	@File setups all fonts.
+	Refer to http://www.typetester.org/ for a compresshensive selection of websafe.
+
+	TODO: Discuss @fontface solutions. Google font api, etc.
+
+*/
+/* Bullet Proof Method for @fontface. Thanks P. Irish! */
+@font-face {
+  font-family: crossdomain;
+  src: url('http://paulirish.com/tagesschrift.eot');
+  src: local('☺'), url('http://paulirish.com/tagesschrift.ttf') format("truetype");
+}
+h1 {
+  font: bold 30px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+h2 {
+  font: bold 24px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+h3 {
+  font: bold 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+h4 {
+  font: bold 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+h5 {
+  font: bold 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+h6 {
+  font: bold 12px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
